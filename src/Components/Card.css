@@ -1,0 +1,26 @@
+.parent {
+    position: relative;
+      top: 0;
+      left: 0;
+}
+#avatar {
+    position: absolute;
+    top: 50px;
+      left: 180.5px;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    #avatar {
+        position: absolute;
+        top: 46.5px;
+          left: 138.5px;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        border: 5px solid #fff;
+    }
+}
